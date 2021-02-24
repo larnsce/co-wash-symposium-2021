@@ -67,7 +67,10 @@ library(htmltools)
 xaringanExtra::use_broadcast()
 ```
 
+
 class: title-slide
+
+<script async defer data-domain="larnsce.github.io/co-wash-symposium-2021" src="https://plausible.io/js/plausible.js"></script>
 
 # `r rmarkdown::metadata$title`
 
@@ -106,4 +109,4 @@ For stopping by.
 
 For R packages [{xaringan}](https://github.com/yihui/xaringan) and [{xaringanthemer}](https://github.com/gadenbuie/xaringanthemer), which where used to create these slides.
 
-All material is licensed under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/). To download a PDF version of these slides [click here]().
+All material is licensed under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/). To download a PDF version of these slides [click here](https://github.com/larnsce/co-wash-symposium-2021/raw/main/docs/slides/co-wash-symposium-data-science-for-wash-slides.pdf).

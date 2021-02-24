@@ -2,6 +2,8 @@
 title: "Contributor Covenant Code of Conduct"
 ---
 
+<script async defer data-domain="larnsce.github.io/co-wash-symposium-2021" src="https://plausible.io/js/plausible.js"></script>
+
 ## Our Pledge
 
 We as members, contributors, and leaders pledge to make participation in our

@@ -15,6 +15,9 @@ author:
 site: distill::distill_website
 ---
 
+<script async defer data-domain="larnsce.github.io/co-wash-symposium-2021" src="https://plausible.io/js/plausible.js"></script>
+
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 
@@ -39,16 +42,21 @@ xaringanExtra::embed_xaringan(url = "slides/index.html", ratio = "16:9")
 
 # 📆 Details
 
-- Friday, 12th March
-- 7 AM (MST - Boulder, Colorado) / 3 PM (CET - Zurich, Switzerland ) / 5 PM (EAT - Nairobi, Kenya)
-
+- **Date:** Friday, 12th March 2021
+- **Time:**
+    - 7 AM (MST - Boulder, USA) `r emo::ji("us")`
+    - 3 PM (CET - Zurich, Switzerland)  `r emo::ji("switzerland")`
+    - 5 PM (EAT - Nairobi, Kenya) `r emo::ji("kenya")`
+    - 9 PM (ICT - Hanoi, Vietnam) `r emo::ji("vietnam")`
+    - 1 AM (NSW - Syndey, Australia) `r emo::ji("australia")` **"Sorry!"**
+ 
 # ✏️ Prework
 
 We assume that you have:
 
 - registered for Colorado WASH Sympsoium 2021 ([register here](https://wash21.paperform.co/)) 
 - created a free account on RStudio Cloud ([create one here](https://rstudio.cloud/plans/free))
-- read the [Code of Conduct]() for this workshop
+- read the [Code of Conduct](https://larnsce.github.io/co-wash-symposium-2021/code_of_conduct.html) for this workshop
 
 We do not expect any prior knowlegde of using R or RStudio.
 
