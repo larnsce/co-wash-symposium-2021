@@ -24,9 +24,9 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
-# Welcome
+# 👋 Welcome
 
-These are the materials and instructions for a workshop hosted on March 12th 2021 at the [Colorado WASH Symposium 2021](https://www.colorado.edu/washsymposium/).
+These are the materials and instructions for a workshop hosted on Day 2 of the [Colorado WASH Symposium 2021](https://www.colorado.edu/washsymposium/). 
 
 
 ```{r share-again, echo=FALSE}
@@ -37,7 +37,12 @@ xaringanExtra::use_share_again()
 xaringanExtra::embed_xaringan(url = "slides/index.html", ratio = "16:9")
 ```
 
-## Prework
+# 📆 Details
+
+- Friday, 12th March
+- 7 AM (MST - Boulder, Colorado) / 3 PM (CET - Zurich, Switzerland ) / 5 PM (EAT - Nairobi, Kenya)
+
+# ✏️ Prework
 
 We assume that you have:
 
@@ -47,7 +52,7 @@ We assume that you have:
 
 We do not expect any prior knowlegde of using R or RStudio.
 
-## Objectives
+# 🏁 Objectives
 
 As part of the workshop you will:
 
@@ -55,6 +60,6 @@ As part of the workshop you will:
 - learn how to use the [R Markdown](https://rmarkdown.rstudio.com/) document format to produce an HTML document, and how to publish it as a website
 - get a taste of the benefits of using R as a modern data science tool for reproducible data analyses and reporting
 
-## Acknowledgments {.appendix}
+# Acknowledgments {.appendix}
 
 This is website made with the [distill package](https://rstudio.github.io/distill/) and is inspired by the layout of [Teaching in Production](https://rstudio-education.github.io/teaching-in-production/) by [Alison Hill](https://alison.rbind.io/).
