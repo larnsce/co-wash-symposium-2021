@@ -54,9 +54,9 @@ xaringanExtra::embed_xaringan(url = "slides/index.html", ratio = "16:9")
 
 We assume that you have:
 
-- registered for Colorado WASH Sympsoium 2021 ([register here](https://wash21.paperform.co/)) 
-- created a free account on RStudio Cloud ([create one here](https://rstudio.cloud/plans/free))
-- read the [Code of Conduct](https://larnsce.github.io/co-wash-symposium-2021/code_of_conduct.html) for this workshop
+1. Registered for Colorado WASH Sympsoium 2021 ([register here](https://wash21.paperform.co/)) 
+2. Created a free account on RStudio Cloud ([create one here](https://rstudio.cloud/plans/free))
+3. Read the [Code of Conduct](https://larnsce.github.io/co-wash-symposium-2021/code_of_conduct.html) for this workshop
 
 We do not expect any prior knowlegde of using R or RStudio.
 
