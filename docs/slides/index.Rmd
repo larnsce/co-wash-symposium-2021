@@ -1,0 +1,109 @@
+---
+title: "Data Science for WASH"
+subtitle: "An opportunity for the sector"
+author: "Lars Schöbitz"
+date: "2020-02-24"
+output:
+  xaringan::moon_reader:
+    css: ["default", "assets/css/my-css-style.css", "assets/css/xaringan-themer.css"]
+    seal: false 
+    lib_dir: libs
+    nature:
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+      highlightStyle: solarized-light
+      highlightLanguage: ["r", "css", "yaml"]
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+```{r setup, include=FALSE}
+options(
+  htmltools.dir.version = FALSE,   
+  htmltools.preserve.raw = FALSE # to fix HTML issue
+  )
+knitr::opts_chunk$set(collapse = TRUE,
+                      fig.retina = 3)
+library(tidyverse)
+library(xaringanExtra)
+xaringanExtra::use_panelset()
+xaringanExtra::use_share_again()
+xaringanExtra::style_share_again(
+  share_buttons = c("twitter", "linkedin", "pocket")
+)
+
+# load packages -----------------------------------------------------------
+
+library(xaringanthemer)
+
+# set options -------------------------------------------------------------
+
+style_mono_accent(
+  base_color = "#0F4C81", # Pantone Classic Blue
+  header_font_google = google_font("Montserrat"),
+  code_font_google = google_font("Fira Mono"), 
+  code_font_size = "1.2rem",
+  text_font_size = "1.4rem", 
+  header_h1_font_size = "2.0rem",
+  header_h2_font_size = "1.75rem",
+  header_h3_font_size = "1.5rem",
+  footnote_font_size = "0.8rem",
+  footnote_position_bottom = "20px",
+  header_background_padding = "2rem",
+  outfile = here::here("slides/assets/css/xaringan-themer.css")
+)
+
+# htmttools
+
+library(htmltools)
+
+```
+
+```{r broadcast, echo=FALSE}
+xaringanExtra::use_broadcast()
+```
+
+class: title-slide
+
+# `r rmarkdown::metadata$title`
+
+## `r rmarkdown::metadata$subtitle`
+
+.bottom[
+
+```{r, echo=FALSE}
+p(rmarkdown::metadata$author)
+p(rmarkdown::metadata$date)
+```
+]
+
+???
+Welcome to this workshop on Data Science for WASH
+
+---
+layout: true
+
+
+---
+class: middle
+
+# .big[Welcome! `r emo::ji("wave")`]
+
+---
+# Workshop slides
+
+You will find the slides for the workshop here, but we aren't ready just yet. In the meantime, please follow the instructions under "Prework" to register for the conference and an account on RStudio Cloud.
+
+---
+# `r emo::ji("sunflower")` Thank you!
+***
+
+For stopping by.
+
+For R packages [{xaringan}](https://github.com/yihui/xaringan) and [{xaringanthemer}](https://github.com/gadenbuie/xaringanthemer), which where used to create these slides.
+
+All material is licensed under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/). To download a PDF version of these slides [click here]().

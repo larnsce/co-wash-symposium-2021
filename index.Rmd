@@ -1,0 +1,60 @@
+---
+title: "Data Science for WASH - An opportunity for the sector"
+description: |
+  Workshop hosted at the Colorado WASH Symposium 2021 
+author:
+- name: Lars Schöbitz
+  url: https://www.lse.de
+  affiliation: Lars Schöbitz GmbH
+  affiliation_url: https://www.lse.de
+- name: Georges Mikhael
+  url: https://www.linkedin.com/in/georges-mikhael-340996140/
+  affiliation: Aguaconsult Ltd.
+  affiliation_url: https://aguaconsult.co.uk/
+  date: "`r Sys.Date()`"
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+```
+
+
+# Welcome
+
+These are the materials and instructions for a workshop hosted on March 12th 2021 at the [Colorado WASH Symposium 2021](https://www.colorado.edu/washsymposium/).
+
+
+```{r share-again, echo=FALSE}
+xaringanExtra::use_share_again()
+```
+
+```{r embed-xaringan, echo=FALSE, fig.cap="[Slides](slides/index.html)"}
+xaringanExtra::embed_xaringan(url = "slides/index.html", ratio = "16:9")
+```
+
+## Prework
+
+We assume that you have:
+
+- registered for Colorado WASH Sympsoium 2021 ([register here](https://wash21.paperform.co/)) 
+- created a free account on RStudio Cloud ([create one here](https://rstudio.cloud/plans/free))
+- read the [Code of Conduct]() for this workshop
+
+We do not expect any prior knowlegde of using R or RStudio.
+
+## Objectives
+
+As part of the workshop you will:
+
+- follow along an example to produce a data analysis report using data of the [WHO/UNICEF Joint Monitoring Programme for Water Supply and Sanitation](https://washdata.org/)
+- learn how to use the [R Markdown](https://rmarkdown.rstudio.com/) document format to produce an HTML document, and how to publish it as a website
+- get a taste of the benefits of using R as a modern data science tool for reproducible data analyses and reporting
+
+## Acknowledgments {.appendix}
+
+This is website made with the [distill package](https://rstudio.github.io/distill/) and is inspired by the layout of [Teaching in Production](https://rstudio-education.github.io/teaching-in-production/) by [Alison Hill](https://alison.rbind.io/).

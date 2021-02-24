@@ -1,0 +1,19 @@
+name: "data-science-for-wash"
+title: "Data Science for WASH"
+description: |
+  Data Science for WASH - An opportunity for the sector
+output_dir: "docs"
+include: ["slides/"]
+creative_commons: CC BY-SA
+repository_url: https://github.com/larnsce/co-wash-symposium-2021
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Code of Conduct"
+      href: code_of_conduct.html
+    - icon: fab fa-github
+      href: https://github.com/larnsce/co-wash-symposium-2021
+output: 
+  distill::distill_article:
+    toc: true
