@@ -42,6 +42,8 @@ xaringanExtra::embed_xaringan(url = "slides/index.html", ratio = "16:9")
 
 # 📆 Details
 
+Can't make it? [Click here](https://kutt.it/washdata-zoom) to sign up for another round on 28th April 2021.
+
 - **Date:** Friday, 12th March 2021
 - **Time:**
     - 7 AM (MST - Boulder, USA) `r emo::ji("us")`
@@ -49,6 +51,8 @@ xaringanExtra::embed_xaringan(url = "slides/index.html", ratio = "16:9")
     - 5 PM (EAT - Nairobi, Kenya) `r emo::ji("kenya")`
     - 9 PM (ICT - Hanoi, Vietnam) `r emo::ji("vietnam")`
     - 1 AM (NSW - Sydney, Australia) `r emo::ji("australia")` **"Sorry!"**
+
+
  
 # ✏️ Prework
 
