@@ -81,6 +81,8 @@ class: title-slide
 ```{r, echo=FALSE}
 p(rmarkdown::metadata$author)
 p(rmarkdown::metadata$date)
+p("Colorado WASH Symposium 2021")
+p("Slides: kutt.it/cowash2021")
 ```
 ]
 
@@ -436,9 +438,11 @@ class: middle
 
 ## If you could not follow through the exercises for any reason
 
-- Sign up for another round of this workshop
+Firstly, I am sorry! 
 
-**TODO: Schedule a Zoom Meeting that people can sign up for**
+And I would appreciate another chance to guide you through them:
+
+.big[[kutt.it/washdata-zoom](https://kutt.it/washdata-zoom)]
 
 ---
 background-image: url(img/welcome_to_rstats_twitter.png)
@@ -480,7 +484,7 @@ class: middle
 
 - Slack: [kutt.it/washdata-slack](https://kutt.it/washdata-slack)
 - Twitter: [@washdata](https://twitter.com/washdata)
-- E-Mail: Fill out this form **Add link to form**
+- E-Mail: [kutt.it/cowash-gf](https://kutt.it/cowash-gf) (please leave your contact details here)
 
 ---
 class: middle
@@ -493,14 +497,17 @@ class: middle
 ---
 class: middle
 
-# .big[Survey form]
+# .big[Feedback and Certificate]
 
 ---
 class: middle
 
 ## We want to learn a bit more about you
 
-- Add Google Form Link
+- Feedback form (anonymous and max 5 minutes)
+- Certficate for participation? Please add contact details
+
+.big[[kutt.it/cowash-gf](https://kutt.it/cowash-gf)]
 
 
 ---
@@ -513,3 +520,4 @@ For R packages [{xaringan}](https://github.com/yihui/xaringan) and [{xaringanthe
 
 All material is licensed under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/). To download a PDF version of these slides [click here](https://github.com/larnsce/co-wash-symposium-2021/raw/main/docs/slides/co-wash-symposium-data-science-for-wash-slides.pdf).
 
+These slides live on: https://kutt.it/cowash2021
