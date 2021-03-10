@@ -41,3 +41,4 @@ vignettes/*.pdf
 # Files
 search.json
 *.key
+*.DS_Store
