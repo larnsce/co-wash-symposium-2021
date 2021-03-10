@@ -97,6 +97,71 @@ class: middle
 # .big[Welcome! `r emo::ji("wave")`]
 
 ---
+# Welcome `r emo::ji("wave")`
+
+.pull-left[
+
+**Lars Schöbitz**
+
+- Environmental Enginneer
+- WASH Consultant
+- Instructor for Data Science with R
+
+]
+
+.pull-right[
+**Georges Mikhael**
+
+- Senior Urban Sanitation Specialist
+- Consultant at Aguaconsult, UK
+- ???
+
+]
+
+???
+
+
+---
+# Data Science
+
+- Turn raw data into understaind, insight and knowledge
+- Statisics and data science are related but it's not a typical course on statisitcs
+- Which language? R
+- 
+
+---
+# Software
+
+- What data analysis used to be for me: Excel Spreadsheet
+- Data that comes tabular might be familiar
+- Show R
+- Show RStudio
+- RStudio to interact with R
+- Looks foreign and that's absolutely okay
+
+---
+# Data Science lifecycle
+
+- Stages
+- Not the only diagram, but widely accepted
+- What does data science looks like
+
+---
+# Show what you see on one side and on the other
+
+(preset output in viewer)
+
+- Shown countries to visualize with washdata
+- Important to me
+- Look closer at the graph
+- We can see in this code that might look very foreign to you
+- Not focus on what gg means, but it does something like a plot
+- Is there anything in here hat I can recognize
+- What else can we see in here
+- In the top we have the metadata
+- ...
+
+
 # Workshop slides
 
 You will find the slides for the workshop here, but we aren't ready just yet. In the meantime, please follow the instructions under "Prework" to register for the conference and an account on RStudio Cloud.
@@ -110,3 +175,4 @@ For stopping by.
 For R packages [{xaringan}](https://github.com/yihui/xaringan) and [{xaringanthemer}](https://github.com/gadenbuie/xaringanthemer), which where used to create these slides.
 
 All material is licensed under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/). To download a PDF version of these slides [click here](https://github.com/larnsce/co-wash-symposium-2021/raw/main/docs/slides/co-wash-symposium-data-science-for-wash-slides.pdf).
+
