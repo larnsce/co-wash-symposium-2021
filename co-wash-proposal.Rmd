@@ -1,0 +1,45 @@
+---
+title: "Workshop Proposal"
+---
+
+<script async defer data-domain="larnsce.github.io/co-wash-symposium-2021" src="https://plausible.io/js/plausible.js"></script>
+
+This is the original proposal that was prepared for the Colorado WASH Symposium 2021. It is also [available as a Google Doc](https://docs.google.com/document/d/17RA1ZAQVSDay56R0u63g_NnIgVU3PqzVoUOg8QisW6k/edit#heading=h.n2udflfhmira) if you are interested to comment on it. 
+
+# Proposal
+
+Digitisation and datafication change life and work as we know it. This does not stop at the gates of the WASH sector. What knowledge, skills and attitudes does a WASH professional need in a working world that considers data as one of the most valuable resources?
+
+Knowledge creation through data, which includes several phases from establishing a data culture to deriving actions, is playing a key part at every organisation in the WASH sector. This includes, but is not limited to monitoring performance of WASH systems; identifying demand for services through questionnaires or surveys; reporting against a set of regional/national/global indicators; or publishing a scientific article.
+
+And despite the increasing demand for WASH organisations to analyse data and share knowledge, very little attention is given to the resources and competencies required to produce actionable insights. Summarised these competencies can be termed as data science competencies, which is the combination of domain knowledge, computing practices, data literacy and statistics.
+
+This workshop opens up a hands-on opportunity to explore the opportunities of data science for the WASH sector. A slideshow presentation will be used only to provide participants with the necessary information to log into a project hosted on RStudio Cloud, for which the only requirements are an internet connection, a browser, and an account on www.rstudio.cloud, without any need for software installation.
+
+Participants will be guided through an example programming exercise of which the result will be a short report for a country of choice, using data available from www.washdata.org. If time permits, each participant will get the chance to create a single page personal website with one R Markdown document.
+
+The workshop supports the mission of the Colorado WASH Symposium by introducing participants to a tool for data analytics that could change the way we work in the WASH sector. Data science competencies entail reproducible and collaborative workflows, the foundation for expanding collective knowledge in the WASH sector. A Code of Conduct developed by the Contributor Covenant will be used that helps build a community which provides a harassment-free experience for everyone.
+
+# Learner Personas
+
+These Learner Personas are inspired by (and mostly copied from) those established by the RStudio Education Team on: https://education.rstudio.com/blog/2020/10/learner-personas/
+
+They were not part of proposal but are added to provide guidance on the target audience.
+
+## Exton Excel
+
+Exton is the Programme Director at a Vietnamese waste management NGO. Part of his responsibilities is managing donor relationships and writing quarterly progress reports.
+
+Exton uses Excel to keep track of reporting requirements of different funding sources. She receives Excel spreadsheets from the monitoring and evaluation team, who manage indicators and data in Excel templates.
+Exton knows there are better ways to do what she’s doing, but feels overwhelmed by the breadth of online material, blog posts, and tweets about data science. She needs an overview to learn what data science is all about, what tools to learn first, how they’re going to help her, and where she should look for introductory tutorials. She would also benefit from side-by-side comparisons of Excel and R.
+
+Exton is a parent and spends a lot of time in conference calls. He has one evening a week, which is the only out-of-work time he’s able to take away from family responsibilities.
+
+## Nang Newbie
+
+Nang is in her first year of a Master of Science In Urban Planning and Design at Makerere University in Uganda. She heard a lot about data science and was excited to learn how to do it during her undergraduate degree where she took a computer science class as an elective. After six weeks, she dropped the course because nothing made sense.
+
+Nang has an affinity to programming, and built herself a home page with HTML and CSS in a weekend workshop in high school. She has accounts on nine different social media sites, and attends all of her classes online.
+Nang wants self-paced tutorials with practice exercises, plus forums where she can ask for help.
+
+Nang is reluctant to reveal her ignorance—she would rather get a low grade and blame it on partying than let her classmates see that she’s floundering.
