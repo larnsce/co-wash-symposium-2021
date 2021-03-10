@@ -107,11 +107,11 @@ class: center
 
 Environmental Engineer  
 WASH Consultant  
-Instructor for Data Science with R  
+Instructor for Data Science with R
 
 ```{r, echo = FALSE, out.width="70%"}
 
-knitr::include_graphics("img/lars_schoebitz_profile_photo.jpg")
+knitr::include_graphics("img/profile_picture_lars_schoebitz_round.png")
 
 ```
 
@@ -123,6 +123,12 @@ knitr::include_graphics("img/lars_schoebitz_profile_photo.jpg")
 Senior Urban Sanitation Specialist  
 Consultant at Aguaconsult, UK  
 Novice R user  
+
+```{r, echo = FALSE, out.width="70%"}
+
+knitr::include_graphics("img/georges_mikhael_profile_picture.jpg")
+
+```
 
 ]
 
@@ -142,7 +148,7 @@ class: middle
 
 ## If so, then you might also wonder:
 
-- How you to use your data, in combination with public open data, to answer these questions
+- How to use your data (in combination with open data) to answer these questions
 - How you can read, transform and analyse data from different sources, and of different structures
 
 
@@ -164,13 +170,15 @@ background-size: contain
 
 ???
 
-- Using open-source (free) tools, you learn how to gather data, intrepret results, and clearly communicate findings.
+- Welcome to Data Science with R
 
-- You will learn how to clean your data and manage it in a way that makes more productive
+- Using open-source (free) tools, you learn how to gather data, intrepret results, and clearly communicate findings.
 
 - You will learn how to make sense of different kinds of data, how to tell whether something is probably true or not. 
 
-- And you will learn a little bit of statistics and some basic programming skills, but more importantly, will know how to apply both to real-world problems in academia, business and society.
+- And you will learn a little bit of statistics and some basic programming skills, 
+
+    - but more importantly, you will know how to apply both to real-world problems in academia, business and society.
 
 ---
 class: middle
@@ -181,37 +189,41 @@ class: middle
 - Demand on WASH professionals to analyse data and share knowledge is increasing
 - Little attention given to the resources and competencies needed to satisfy this demand
 
+???
+
+So, why is this topic relevant?
+
 ---
 # Data Science - FAQ
 ***
 
 **Q: What is data science?**  
-A: In data science you turn raw data into understanding, insight and knowledge  
+A: In data science you turn raw data into understanding, insight and knowledge.  
 
 **Q: What is R?**  
-A: It's a computing language used for data science
+A: It's a computing language used for data science.
 
-**Q: Is Data Science = Statistics**  
-A: No, but they are closely related
+**Q: Is Data Science = Statistics?**  
+A: No, but they are closely related.
 
-**Q: Is Data Science = Computer Science**  
-A: No, but many themes are shared
+**Q: Is Data Science = Computer Science?**  
+A: No, but many themes are shared.
 
 ---
 # Data Science for WASH - FAQ
 ***
  
 **Q: Will I learn how to do machine learning?**  
-Nope, not at all. We explore core concepts such as descriptive statistics, data visualisation, and (some) basic modeling
+Nope, not at all. We explore core concepts such as descriptive statistics, data visualisation, and (some) basic modeling.
 
 **Q: Do I need any prior experience?**  
-A: Nope, my courses are targeted at novice users
+A: Nope, my courses are targeted at novice users.
 
 **Q: What do I need to learn data science?**  
-A: A mindset for openness to change; A good portion of vulnerability; A friendly and open community 
+A: (1) A mindset for openness to change; (2) A good portion of vulnerability; (3) A friendly and open community.
 
 **Q: And how long does it take to learn data science?**  
-A: A minimum of 3 months with tutoring support and time effort of 12 hours per week
+A: Three months with tutoring support and a time effort of 12 hours per week.
 
 ???
 
@@ -226,6 +238,10 @@ I would say anywhere between 3 months (with tutoring support) up to a year (if s
 class: middle, inverse
 
 # .big[Data Science Lifecycle]
+
+
+???
+Let's have a look at the data science project lifecycle
 
 ---
 class: left
