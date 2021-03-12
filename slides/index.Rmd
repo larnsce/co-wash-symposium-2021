@@ -701,6 +701,9 @@ class: middle
 .big[Fill out this form:  
 [kutt.it/cowash-form](https://kutt.it/cowash-form)]
 
+- 10 questions
+- done in 5 minutes
+
 ???
 
 1. This course doesn't exist
@@ -708,7 +711,6 @@ class: middle
 3. An obvious one is funding: If you know of someone who might keen to fund this, please let me.
 4. Another one is you: All of this is based on a community that develops the competencies and needs together.
 5. I have a Slack Channel that I intend to use for the development. You can join, if you want.
-6. You can also let me know on this form if you are interested in a certificate for participating in this workshop.
 
 ---
 background-image: url(img/r4ds.jpg)
