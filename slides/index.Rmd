@@ -480,11 +480,16 @@ background-size: contain
 
 1. A plot by the financial times. Done in R with it's main ggplot package. The same as we have seen earlier.
 
-My point is, you can tell your story with R. It's data visualisation capabilities are insane and today there are many different options to communicate your findings with the world.
-
-
 ---
-```{r, eval=FALSE}
+background-image: url(img/anim.gif)
+background-size: contain
+background-position: right
+
+## Hans Rosling's Gapminder
+
+.footnote[[Click here for the code](https://github.com/larnsce/co-wash-symposium-2021/blob/main/slides/index.Rmd#L504)]
+
+```{r, eval=FALSE, echo=FALSE}
 
 # Copied from: https://www.r-graph-gallery.com/271-ggplot2-animated-gif-chart-with-gganimate.html
 
@@ -512,15 +517,13 @@ anim_save(here::here("slides/img/anim.gif"))
 
 ```
 
----
-background-image: url(img/anim.gif)
-background-size: contain
-background-position: right
 
-## Hans Rosling's Gapminder
+???
 
+1. And Hans Rosling's Gapminder animated visualisation, which some of you may have seen before.
+2. Done in R.
+3. My point is, you can tell your story with R. It's data visualisation capabilities are insane and today there are many different options to communicate your findings with the world.
 
-.footnote[Click here for the code]
 ---
 class: middle, inverse
 
@@ -604,6 +607,7 @@ class: inverse, middle
     - just **not** the Internet Explorer
 4. A laptop or desktop computer
     - it will be hard to do on a phone or tablet
+5. And if you haven't seen it, please read the [Code of Conduct](https://larnsce.github.io/co-wash-symposium-2021/code_of_conduct.html) after this workshop
 
 ---
 # Screen setup
@@ -627,9 +631,6 @@ knitr::include_graphics("img/permanent-copy.png")
 ```
 
 
-
-
-
 ---
 class: inverse, middle
 
@@ -640,49 +641,66 @@ background-image: url(img/r_rollercoaster.png)
 background-size: contain 
 
 .footnote[Artwork by [@allison_horst](https://twitter.com/allison_horst)]
+
+
+---
+background-image: url(img/rollercoaster-arrow.001.png)
+background-size: contain 
+
+.footnote[Adapted from Artwork by [@allison_horst](https://twitter.com/allison_horst)]
+
+
+---
+background-image: url(img/rollercoaster-arrow.002.png)
+background-size: contain 
+
+.footnote[Adapted from Artwork by [@allison_horst](https://twitter.com/allison_horst)]
+
 ---
 class: middle
 
 ## If you could not follow through the exercises for any reason
 
-Firstly, I am sorry! 
 
-And I would appreciate another chance to guide you through them:
+.big[Contact me: lars@lse.de]
 
-.big[[kutt.it/washdata-zoom](https://kutt.it/washdata-zoom)]
+???
+I would be more than happy to go through it with you another time where I can help sort out technical difficulties.
 
 ---
-background-image: url(img/welcome_to_rstats_twitter.png)
+class: middle
+
+## If you are interested in a course on Data Science for WASH
+
+.big[Fill out this form:  
+[kutt.it/cowash-form](https://kutt.it/cowash-form)]
+
+???
+
+1. This course doesn't exist
+2. And I am looking for people to help me develop it
+3. An obvious one is funding: If you know of someone who might keen to fund this, please let me.
+4. Another one is you: All of this is based on a community that develops the competencies and needs together.
+5. I have a Slack Channel that I intend to use for the development. You can join, if you want.
+6. You can also let me know on this form if you are interested in a certificate for participating in this workshop.
+
+---
+background-image: url(img/r4ds.jpg)
 background-size: contain
 background-position: right
-class: left
 
-## If you want to continue learning online
+## If you want to continue learning now
 
-- Twitter: #rstats
-- Online learning community [@R4DScommunity](https://twitter.com/R4DScommunity)
-- Minority R Users [@miR_community](https://twitter.com/miR_community)
-- We are [@R-Ladies](https://twitter.com/WeAreRLadies)
-- [RStudio Community](https://community.rstudio.com/)
+- Book: https://r4ds.had.co.nz/
+- Community: https://www.rfordatasci.com/
 
-.footnote[Artwork by [@allison_horst](https://twitter.com/allison_horst)]
+???
 
----
-## If you want a complete introduction to R Markdown
-
-### Tutorial by [Danielle Navarro](https://djnavarro.net/)
-
-- Slides: https://slides.djnavarro.net/starting-rmarkdown
-- YouTube videos: https://youtube.djnavarro.net/starting-rmarkdown
-
-
-[
-```{r, echo=FALSE, out.width="60%"}
-
-knitr::include_graphics("img/danielle-navarro-markdown.png")
-
-```
-](https://slides.djnavarro.net/starting-rmarkdown)
+1. Use this book.
+2. But, don't read it by yourself. 
+3. Join an online learning community.
+4. This community here works through together in a sort of book club.
+5. Mentors and other users help each other learn R.
 
 ---
 class: middle
@@ -691,31 +709,7 @@ class: middle
 
 - Slack: [kutt.it/washdata-slack](https://kutt.it/washdata-slack)
 - Twitter: [@washdata](https://twitter.com/washdata)
-- E-Mail: [kutt.it/cowash-gf](https://kutt.it/cowash-gf) (please leave your contact details here)
-
----
-class: middle
-
-## If you have unanswered questions or want to leave a comment (anonymously)
-
-.big[[kutt.it/cowash-gd](https://kutt.it/cowash-gd)]
-
-
----
-class: middle
-
-# .big[Feedback and Certificate]
-
----
-class: middle
-
-## We want to learn a bit more about you
-
-- Feedback form (anonymous and max 5 minutes)
-- Certficate for participation? Please add contact details
-
-.big[[kutt.it/cowash-gf](https://kutt.it/cowash-gf)]
-
+- E-Mail: Lars@Lse.de
 
 ---
 # `r emo::ji("sunflower")` Thank you!
@@ -727,4 +721,4 @@ For R packages [{xaringan}](https://github.com/yihui/xaringan) and [{xaringanthe
 
 All material is licensed under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/). To download a PDF version of these slides [click here](https://github.com/larnsce/co-wash-symposium-2021/raw/main/docs/slides/co-wash-symposium-data-science-for-wash-slides.pdf).
 
-These slides live on: https://kutt.it/cowash2021
+.big[Slides here: [kutt.it/cowash2021](https://kutt.it/cowash2021)]
