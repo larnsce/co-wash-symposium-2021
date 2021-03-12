@@ -1,7 +1,7 @@
 ---
 title: "Data Science for WASH - An opportunity for the sector"
 description: |
-  Workshop hosted at the Colorado WASH Symposium 2021 
+  Join this 1-hour workshop to get started 
 author:
 - name: Lars Schöbitz
   url: https://www.lse.de
@@ -17,7 +17,6 @@ site: distill::distill_website
 
 <script async defer data-domain="larnsce.github.io/co-wash-symposium-2021" src="https://plausible.io/js/plausible.js"></script>
 
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 
@@ -29,8 +28,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # 👋 Welcome
 
-These are the materials and instructions for a workshop hosted on Day 2 of the [Colorado WASH Symposium 2021](https://www.colorado.edu/washsymposium/). 
-
+These materials were prepared for a workshop hosted at the [Colorado WASH Symposium 2021](https://www.colorado.edu/washsymposium/). The symposium is finished, but I will continue to host the workshop on Zoom.
 
 ```{r share-again, echo=FALSE}
 xaringanExtra::use_share_again()
@@ -42,9 +40,9 @@ xaringanExtra::embed_xaringan(url = "slides/index.html", ratio = "16:9")
 
 # 📆 Details
 
-Can't make it? [Click here](https://kutt.it/washdata-zoom) to sign up for another round on 28th April 2021.
+Have you missed it? [Click here](https://kutt.it/washdata-zoom) to sign up for another round on 28th April 2021.
 
-- **Date:** Friday, 12th March 2021
+- **Date:** Wednesday, 28th April 2021
 - **Time:**
     - 7 AM (MST - Boulder, USA) `r emo::ji("us")`
     - 3 PM (CET - Zurich, Switzerland)  `r emo::ji("switzerland")`
@@ -53,15 +51,13 @@ Can't make it? [Click here](https://kutt.it/washdata-zoom) to sign up for anothe
     - 1 AM (NSW - Sydney, Australia) `r emo::ji("australia")` **"Sorry!"**
 
 
- 
 # ✏️ Prework
 
 We assume that you have:
 
-1. Registered for Colorado WASH Symposium 2021 ([register here](https://wash21.paperform.co/)) 
-2. Created a free account on RStudio Cloud ([create one here](https://rstudio.cloud/plans/free))
-3. One of Mozilla Firefox, Safari, Google Chrome, Microsoft Edge (just **not** the Internet Explorer)
-4. Read the [Code of Conduct](https://larnsce.github.io/co-wash-symposium-2021/code_of_conduct.html) for this workshop
+1. Created a free account on RStudio Cloud ([create one here](https://rstudio.cloud/plans/free))
+2. One of Mozilla Firefox, Safari, Google Chrome, Microsoft Edge (just **not** the Internet Explorer)
+3. Read the [Code of Conduct](https://larnsce.github.io/co-wash-symposium-2021/code_of_conduct.html) for this workshop
 
 We do not expect any prior knowledge of using R or RStudio.
 

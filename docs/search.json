@@ -25,7 +25,7 @@
     {
       "path": "index.html",
       "title": "Data Science for WASH - An opportunity for the sector",
-      "description": "Workshop hosted at the Colorado WASH Symposium 2021 \n",
+      "description": "Join this 1-hour workshop to get started \n",
       "author": [
         {
           "name": "Lars Schöbitz",
@@ -36,8 +36,8 @@
           "url": "https://www.linkedin.com/in/georges-mikhael-340996140/"
         }
       ],
-      "contents": "\n\nContents\n👋 Welcome\n📆 Details\n✏️ Prework\n🏁 Objectives\nAcknowledgments\n\n👋 Welcome\nThese are the materials and instructions for a workshop hosted on Day 2 of the Colorado WASH Symposium 2021.\n\n\n\n\n\n\nfitvids('.shareagain', {players: 'iframe'});\n\n📆 Details\nCan’t make it? Click here to sign up for another round on 28th April 2021.\nDate: Friday, 12th March 2021\nTime:\n7 AM (MST - Boulder, USA) 🇺🇸\n3 PM (CET - Zurich, Switzerland) 🇨🇭\n5 PM (EAT - Nairobi, Kenya) 🇰🇪\n9 PM (ICT - Hanoi, Vietnam) 🇻🇳\n1 AM (NSW - Sydney, Australia) 🇦🇺 “Sorry!”\n\n✏️ Prework\nWe assume that you have:\nRegistered for Colorado WASH Symposium 2021 (register here)\nCreated a free account on RStudio Cloud (create one here)\nOne of Mozilla Firefox, Safari, Google Chrome, Microsoft Edge (just not the Internet Explorer)\nRead the Code of Conduct for this workshop\nWe do not expect any prior knowledge of using R or RStudio.\n🏁 Objectives\nAs part of the workshop you will:\nfollow along an example to produce a data analysis report using data of the WHO/UNICEF Joint Monitoring Programme for Water Supply and Sanitation\nlearn how to use the R Markdown document format to produce an HTML document, and how to publish it as a website\nget a taste of the benefits of using R as a modern data science tool for reproducible data analyses and reporting\nAcknowledgments\nThis is website made with the distill package and is inspired by the layout of Teaching in Production by Alison Hill.\n\n\n\n",
-      "last_modified": "2021-03-12T13:44:54+01:00"
+      "contents": "\n\nContents\n👋 Welcome\n📆 Details\n✏️ Prework\n🏁 Objectives\nAcknowledgments\n\n👋 Welcome\nThese materials were prepared for a workshop hosted at the Colorado WASH Symposium 2021. The symposium is finished, but I will continue to host the workshop on Zoom.\n\n\n\n\n\n\nfitvids('.shareagain', {players: 'iframe'});\n\n📆 Details\nHave you missed it? Click here to sign up for another round on 28th April 2021.\nDate: Wednesday, 28th April 2021\nTime:\n7 AM (MST - Boulder, USA) 🇺🇸\n3 PM (CET - Zurich, Switzerland) 🇨🇭\n5 PM (EAT - Nairobi, Kenya) 🇰🇪\n9 PM (ICT - Hanoi, Vietnam) 🇻🇳\n1 AM (NSW - Sydney, Australia) 🇦🇺 “Sorry!”\n\n✏️ Prework\nWe assume that you have:\nCreated a free account on RStudio Cloud (create one here)\nOne of Mozilla Firefox, Safari, Google Chrome, Microsoft Edge (just not the Internet Explorer)\nRead the Code of Conduct for this workshop\nWe do not expect any prior knowledge of using R or RStudio.\n🏁 Objectives\nAs part of the workshop you will:\nfollow along an example to produce a data analysis report using data of the WHO/UNICEF Joint Monitoring Programme for Water Supply and Sanitation\nlearn how to use the R Markdown document format to produce an HTML document, and how to publish it as a website\nget a taste of the benefits of using R as a modern data science tool for reproducible data analyses and reporting\nAcknowledgments\nThis is website made with the distill package and is inspired by the layout of Teaching in Production by Alison Hill.\n\n\n\n",
+      "last_modified": "2021-03-12T22:16:09+01:00"
     }
   ],
   "collections": []
