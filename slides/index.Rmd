@@ -537,17 +537,31 @@ background-image: url(img/dir-structure.png)
 background-position: middle
 background-size: contain
 
+???
+- Thought I was organised, but I wasn't
+
 ---
 class: left
 background-image: url(img/excel-error.png)
 background-position: middle
 background-size: contain
 
+???
+- Errors that I would not know how to fix
+
 ---
 class: left
 background-image: url(img/excel-sheet.png)
 background-position: middle
 background-size: contain
+
+???
+1. And actually, I realised, that when I added to my CV I was proficient with Microsoft Tools, like Excel, I wasn't at all. 
+2. I could not perform the analysis I wanted or needed to get answers to my questions
+3. And then instead of actually learning how to use Excel properly, I decided to invest into something else. 
+4. Something that's free to use. Forever.
+5. Something that has a thriving global community.
+6. I started learning R. In 2016.
 
 ---
 class: inverse, middle
@@ -594,7 +608,7 @@ background-size: contain
 ---
 class: inverse, middle
 
-# .large[Let's put work into this workshop]
+# .large[Let's put *work* into this workshop]
 
 ---
 # Requirements
@@ -610,9 +624,10 @@ class: inverse, middle
 5. And if you haven't seen it, please read the [Code of Conduct](https://larnsce.github.io/co-wash-symposium-2021/code_of_conduct.html) after this workshop
 
 ---
-# Screen setup
+class: left
+background-image: url(img/screen-layout.png)
+background-size: contain
 
-**Add screenshot that shows setup on one small screen**
 
 ---
 # Your Turn
@@ -621,6 +636,8 @@ class: inverse, middle
 .large[Step 1: Open this link in your browser]
 
 .big[[kutt.it/cowash-ws](https://kutt.it/cowash-ws)]
+
+--
 
 .large[Step 2: Create your own permanent project copy]
 
@@ -642,6 +659,9 @@ background-size: contain
 
 .footnote[Artwork by [@allison_horst](https://twitter.com/allison_horst)]
 
+???
+Back to our R rollecoaster
+
 
 ---
 background-image: url(img/rollercoaster-arrow.001.png)
@@ -649,6 +669,9 @@ background-size: contain
 
 .footnote[Adapted from Artwork by [@allison_horst](https://twitter.com/allison_horst)]
 
+???
+1. I am pretty sure most of you are still somewhere here.
+2. That's not because of you, but because it's impossible to really understand any of this in 20 Minutes.
 
 ---
 background-image: url(img/rollercoaster-arrow.002.png)
@@ -656,11 +679,14 @@ background-size: contain
 
 .footnote[Adapted from Artwork by [@allison_horst](https://twitter.com/allison_horst)]
 
+???
+1. But I can help you get through that scary part at the beginngin
+2. And also through that first dip, after it felt all exciting
+
 ---
 class: middle
 
 ## If you could not follow through the exercises for any reason
-
 
 .big[Contact me: lars@lse.de]
 
