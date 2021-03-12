@@ -26,8 +26,22 @@ options(
   htmltools.dir.version = FALSE,   
   htmltools.preserve.raw = FALSE # to fix HTML issue
   )
-knitr::opts_chunk$set(collapse = TRUE,
-                      fig.retina = 3)
+# figure height, width, dpi
+knitr::opts_chunk$set(echo = FALSE, 
+                      warning = FALSE, 
+                      eval = TRUE,
+                      fig.width = 6, 
+                      fig.asp = 0.5,
+                      comment = "", 
+                      cache = FALSE, 
+                      out.width = "100%",
+                      fig.align = "center",
+                      dpi = 300,
+                      message = FALSE)
+
+# ggplot2 set theme
+ggplot2::theme_set(ggplot2::theme_gray(base_size = 16))
+
 library(tidyverse)
 library(xaringanExtra)
 xaringanExtra::use_panelset()
@@ -39,6 +53,7 @@ xaringanExtra::style_share_again(
 # load packages -----------------------------------------------------------
 
 library(xaringanthemer)
+library(palmerpenguins)
 
 # set options -------------------------------------------------------------
 
@@ -134,6 +149,15 @@ knitr::include_graphics("img/georges_mikhael_profile_picture.jpg")
 
 ???
 
+- My name is Lars, I am an environmental engineer and WASH Consultant
+- More recently, I have certified as an RStudio Instructor for teaching Data Science with R
+- I am leading this workshop and the initative behind it
+
+- Georges is supporting me in this presentation
+- He is a Senior Urban Sanitation Specialist at Aguaconsult, UK
+- He is a novice R user 
+- Today, he will monitor the chat and curate questions for a short discussion at the end
+
 ---
 class: middle
 
@@ -148,9 +172,9 @@ class: middle
 
 ## If so, then you might also wonder:
 
-- How to use your data (in combination with open data) to answer these questions
-- How you can read, transform and analyse data from different sources, and of different structures
-
+- How to use data visualiation to answer these questions
+- How to combine your data with other open data to answer these questions
+- How to get data into the right structure to perform different types of analyse
 
 ???
 
@@ -172,13 +196,13 @@ background-size: contain
 
 - Welcome to Data Science with R
 
-- Using open-source (free) tools, you learn how to gather data, intrepret results, and clearly communicate findings.
+- Using open-source (free) tools, you will learn how to gather data, intrepret results, and clearly communicate findings.
 
 - You will learn how to make sense of different kinds of data, how to tell whether something is probably true or not. 
 
-- And you will learn a little bit of statistics and some basic programming skills, 
+- You will learn how to manage your data and a little bit of statistics and some basic programming skills, 
 
-    - but more importantly, you will know how to apply both to real-world problems in academia, business and society.
+- but more importantly, you will know how to apply all that to real-world problems in academia, business and society.
 
 ---
 class: middle
@@ -188,6 +212,7 @@ class: middle
 - Deriving actions from data plays a key role in every organisation
 - Demand on WASH professionals to analyse data and share knowledge is increasing
 - Little attention given to the resources and competencies needed to satisfy this demand
+- Investing now into becoming a data-driven organisation will pay off in the long run
 
 ???
 
@@ -214,7 +239,7 @@ A: No, but many themes are shared.
 ***
  
 **Q: Will I learn how to do machine learning?**  
-Nope, not at all. We explore core concepts such as descriptive statistics, data visualisation, and (some) basic modeling.
+Nope, not at all. You will learn core concepts such as descriptive statistics, data visualisation, and (some) basic modeling.
 
 **Q: Do I need any prior experience?**  
 A: Nope, my courses are targeted at novice users.
@@ -223,7 +248,7 @@ A: Nope, my courses are targeted at novice users.
 A: (1) A mindset for openness to change; (2) A good portion of vulnerability; (3) A friendly and open community.
 
 **Q: And how long does it take to learn data science?**  
-A: Three months with tutoring support and a time effort of 12 hours per week.
+A: Three months with tutoring support and a time effort of 12 hours per week. 
 
 ???
 
@@ -263,7 +288,7 @@ background-size: contain
 - in a database, 
 - or web application, and load it into R. 
 
-2. If you can’t get your data into R, you can’t do data science on it!
+2. If you can get your data into R, you can  do data science on it!
 
 ---
 class: left
@@ -276,7 +301,9 @@ background-size: contain
 
 1. Once you’ve imported your data, it is a good idea to tidy it. 
 2. This means to get it into a structure that lets you focus on the questions about your data and not the format it needs to be in
-3. In brief: Data is tidy when each column is a variable, and each row is an observations
+3. This is the step where we spend by far the biggest amount of our time. 
+4. It has been estimated that we spend about 80% of our time with cleaning and tidying data, so that we can use it fo our analyses.
+5. In my courses you will learn how to structure your data in a tidy format as you collect it, and before you import it. A highly underestimated skill.
 
 ---
 class: left
@@ -288,7 +315,7 @@ background-size: contain
 1. Once your data is tidy, a common first step is to transform it.
 2. This includes 
   - narrowing in on what interests you (like all people without toilets in one district, or all data from last year)
-  - creating new variables from existing 
+  - creating new variables from existing (like toilet density, as in number of people per toilet) 
   - calculating summary statistics (like counts or the mean)
   
 Together, tidying and transforming are called wrangling, because getting your data in a form that’s natural to work with often feels like a fight!
@@ -301,11 +328,14 @@ background-size: contain
 
 ???
 
-- Once you have tidy data with the variables you need, there are two main engines of knowledge generation: visualisation and modelling. 
+1. Once you have tidy data with the variables you need, there are two main engines of knowledge generation: 
 
-- These have complementary strengths and weaknesses so any real analysis will iterate between them many times.
+- visualisation 
+- and modelling. 
 
-Visualisaiton: Visualisation is a fundamentally human activity. A good visualisation will show you things that you did not expect, or raise new questions about the data.
+2. These have complementary strengths and weaknesses so any real analysis will iterate between them many times.
+
+3. Visualisation is a fundamentally human activity. A good visualisation will show you things that you did not expect, or raise new questions about the data.
 
 ---
 class: left
@@ -315,7 +345,8 @@ background-size: contain
 
 ???
 
-Models are complementary tools to visualisation. Once you have made your questions sufficiently precise, you can use a model to answer them.
+1. Models are complementary tools to visualisation. Once you have made your questions sufficiently precise, you can use a model to answer them.
+2. In my courses, they play a very small part, but I am confident that you will be able to enhance your knowledge on modelling once you understand the basic principles of using the R lanuage.
 
 
 ---
@@ -326,10 +357,170 @@ background-size: contain
 
 ???
 
-- The last step of data science is communication, an absolutely critical part of any data analysis project. 
+1. The last step of data science is communication, an absolutely critical part of any data analysis project. 
 
-- It doesn’t matter how well your models and visualisation have led you to understand the data unless you can also communicate your results to others.
+2. It doesn’t matter how well your models and visualisation have led you to understand the data, unless you can also communicate your results to others.
 
+3. And this is a part where R has become really strong.
+
+---
+background-image: url(img/r_rollercoaster.png)
+background-size: contain 
+
+.footnote[Artwork by [@allison_horst](https://twitter.com/allison_horst)]
+
+---
+class: middle, inverse
+
+# .big[Awesome things you can do with R]
+
+---
+.panelset[
+
+.panel[.panel-name[Slides]
+
+These slides are made with R. They can include:
+
+- Code
+- Its output
+- Interactive output
+- Maps
+
+]
+
+.panel[.panel-name[Code]
+
+```{r penguins, fig.show = "hide", echo=TRUE, warning=FALSE}
+ggplot(data = penguins, 
+       mapping = aes(x = bill_depth_mm, 
+                     y = bill_length_mm,
+                     colour = species)) +
+  geom_point() +
+  labs(title = "Bill depth and length",
+       subtitle = "Dimensions for Adelie, Chinstrap, and Gentoo Penguins",
+       x = "Bill depth (mm)", 
+       y = "Bill length (mm)",
+       colour = "Species") 
+```
+]
+.panel[.panel-name[Code output]
+```{r ref.label = "penguins", echo = FALSE, warning = FALSE, out.width = "90%", fig.width = 8}
+```
+]
+
+.panel[.panel-name[Interactive output]
+```{r, out.width="100%"}
+
+plot <- ggplot(data = penguins, 
+       mapping = aes(x = bill_depth_mm, 
+                     y = bill_length_mm,
+                     colour = species)) +
+  geom_point() +
+  labs(title = "Bill depth and length",
+       x = "Bill depth (mm)", 
+       y = "Bill length (mm)",
+       colour = "Species") +
+  theme(legend.position = "none")
+
+plotly::ggplotly(plot, width = 9, height = 8)
+
+```
+]
+]
+
+???
+These slides are made in R. I can include code and it's output.
+
+---
+background-image: url(https://timogrossenbacher.ch/wp-content/uploads/2016/12/tm-final-map-1-1.png)
+background-position: middle
+background-size: contain
+
+.footnote[From: [Timo Grossenbacher: Bivariate maps with ggplot2 and sf](https://timogrossenbacher.ch/2019/04/bivariate-maps-with-ggplot2-and-sf/)]
+
+
+---
+background-image: url(img/course-web.png)
+background-size: contain
+
+.footnote[
+From: https://larnsce.github.io/co-wash-symposium-2021/
+]
+
+???
+Websites. The website I designed for this course is made with R. Once you know the basics of how to work with one R, then you can do this in no longer than 30 minutes.
+
+---
+background-image: url(img/teacups.png)
+background-size: contain
+
+.footnote[
+From: https://tinystats.github.io/teacups-giraffes-and-statistics/index.html
+]
+
+---
+background-image: url(img/r4ds.png)
+background-size: contain
+
+.footnote[
+From: https://r4ds.had.co.nz/
+]
+
+???
+1. You can write a book in R and publish it as a website. 
+2. The most popular book for learning R is published freely online in exactly that format. 
+3. Again, once you learn how to it in one format, then your outputs can be multiple
+
+---
+background-image: url(https://revolution-computing.typepad.com/.a/6a010534b1db25970b022ad3569819200c-800wi)
+background-position: middle
+background-size: contain
+
+???
+
+1. A plot by the financial times. Done in R with it's main ggplot package. The same as we have seen earlier.
+
+My point is, you can tell your story with R. It's data visualisation capabilities are insane and today there are many different options to communicate your findings with the world.
+
+
+---
+```{r, eval=FALSE}
+
+# Copied from: https://www.r-graph-gallery.com/271-ggplot2-animated-gif-chart-with-gganimate.html
+
+# Get data:
+library(gapminder)
+ 
+# Charge libraries:
+library(ggplot2)
+library(gganimate)
+ 
+# Make a ggplot, but add frame=year: one image per year
+ggplot(gapminder, aes(gdpPercap, lifeExp, size = pop, color = continent)) +
+  geom_point() +
+  scale_x_log10() +
+  scale_color_brewer(type = "qual", palette = "Set3")+ 
+  theme_minimal(base_size = 20) +
+  labs(size = "Population", color = "Continent")  +
+  # gganimate specific bits:
+  labs(title = 'Year: {frame_time}', x = 'GDP per capita', y = 'life expectancy') +
+  transition_time(year) +
+  ease_aes('linear')
+
+# Save at gif:
+anim_save(here::here("slides/img/anim.gif"))
+
+```
+
+---
+background-image: url(img/anim.gif)
+background-size: contain
+background-position: right
+
+## Hans Rosling's Gapminder
+
+
+.footnote[Click here for the code]
 ---
 class: middle, inverse
 
