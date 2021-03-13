@@ -40,7 +40,7 @@ xaringanExtra::embed_xaringan(url = "slides/index.html", ratio = "16:9")
 
 # 📆 Details
 
-Have you missed it? [Click here](https://kutt.it/washdata-zoom) to sign up for another round on 28th April 2021.
+Have you missed it? [Click here](https://us02web.zoom.us/meeting/register/tZwudu6hpjsiEteldiNdKQmgjKGUWaasPzyU) to sign up for another round on 28th April 2021.
 
 - **Date:** Wednesday, 28th April 2021
 - **Time:**

@@ -97,7 +97,7 @@ class: title-slide
 p(rmarkdown::metadata$author)
 p(rmarkdown::metadata$date)
 p("Colorado WASH Symposium 2021")
-p("Slides: kutt.it/cowash2021")
+p("Slides: larnsce.github.io/co-wash-symposium-2021/")
 ```
 ]
 
@@ -635,7 +635,7 @@ background-size: contain
 
 .large[Step 1: Open this link in your browser]
 
-.big[[kutt.it/cowash-ws](https://kutt.it/cowash-ws)]
+.big[[rstudio.cloud/project/2301653](https://rstudio.cloud/project/2301653)]
 
 --
 
@@ -699,7 +699,7 @@ class: middle
 ## If you are interested in a course on Data Science for WASH
 
 .big[Fill out this form:  
-[kutt.it/cowash-form](https://kutt.it/cowash-form)]
+[forms.gle/XaDNE3Z6SJrxo2BM8](https://forms.gle/XaDNE3Z6SJrxo2BM8)]
 
 - 10 questions
 - done in 5 minutes
@@ -735,7 +735,7 @@ class: middle
 
 ## If you are interested in following along the development of Data Science for WASH
 
-- Slack: [kutt.it/washdata-slack](https://kutt.it/washdata-slack)
+- Slack: [Click here](https://join.slack.com/t/datascienceforwash/shared_invite/zt-nh47xhqt-WYV64_iqTBMxBB4CMWm33Q)
 - Twitter: [@washdata](https://twitter.com/washdata)
 - E-Mail: Lars@Lse.de
 
@@ -749,4 +749,4 @@ For R packages [{xaringan}](https://github.com/yihui/xaringan) and [{xaringanthe
 
 All material is licensed under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/). To download a PDF version of these slides [click here](https://github.com/larnsce/co-wash-symposium-2021/raw/main/docs/slides/co-wash-symposium-data-science-for-wash-slides.pdf).
 
-.big[Slides here: [kutt.it/cowash2021](https://kutt.it/cowash2021)]
+.big[Slides here: [https://larnsce.github.io/co-wash-symposium-2021/](https://larnsce.github.io/co-wash-symposium-2021/)]
