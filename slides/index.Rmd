@@ -168,10 +168,12 @@ background-position: right
 ## Housekeeping 
 
 .pull-left-wide[
-- Keep your microphone
+- Keep your microphone muted
 - Post question to the Zoom Chat
 - Questions will be addressed at the end 
 - Technical difficulties cannot be addressed
+
+**Note:** This Zoom Meeting will be recorded
 ]
 
 ---
@@ -702,8 +704,8 @@ background-size: contain
 class: middle
 
 ## If you could not follow through the exercises for any reason
-
-.big[Contact me: lars@lse.de]
+***
+.big[Contact me: [Lars@Lse.de](mailto:lars@lse.de)]
 
 ???
 I would be more than happy to go through it with you another time where I can help sort out technical difficulties.
@@ -749,10 +751,21 @@ background-position: right
 class: middle
 
 ## If you are interested in following along the development of Data Science for WASH
+***
+- Join Slack Workspace: **[Click here](https://join.slack.com/t/datascienceforwash/shared_invite/zt-nh47xhqt-WYV64_iqTBMxBB4CMWm33Q)**
+- Follo along on Twitter: **[@washdata](https://twitter.com/washdata)**
+- Get in touch via E-Mail: **[Lars@Lse.de](mailto:lars@lse.de)**
 
-- Slack: [Click here](https://join.slack.com/t/datascienceforwash/shared_invite/zt-nh47xhqt-WYV64_iqTBMxBB4CMWm33Q)
-- Twitter: [@washdata](https://twitter.com/washdata)
-- E-Mail: Lars@Lse.de
+---
+class: middle
+
+## If you know of someone that could be interested
+***
+Share info about next round of this workshop
+
+- **Date:** 29th July 2021
+- **Time:** 3 PM (CET)
+- **Sign-up Link:** https://us02web.zoom.us/meeting/register/tZcucO-qpjItGdRYUuhfU120KpUCnnTejkqm 
 
 ---
 # `r emo::ji("sunflower")` Thank you!
