@@ -159,6 +159,22 @@ knitr::include_graphics("img/georges_mikhael_profile_picture.jpg")
 - Today, he will monitor the chat and curate questions for a short discussion at the end
 
 ---
+background-image: url(img/housekeeping.jpg)
+background-size: contain
+background-position: right
+
+.footnote[Photo by: [Sofia Geada](https://unsplash.com/photos/Ca6-5uQmCpI)]
+
+## Housekeeping 
+
+.pull-left-wide[
+- Keep your microphone
+- Post question to the Zoom Chat
+- Questions will be addressed at the end 
+- Technical difficulties cannot be addressed
+]
+
+---
 class: middle
 
 ## Do you sometimes wonder:
@@ -172,9 +188,9 @@ class: middle
 
 ## If so, then you might also wonder:
 
-- How to use data visualiation to answer these questions
-- How to combine your data with other open data to answer these questions
-- How to get data into the right structure to perform different types of analyse
+- How to use data visualiation to answer these questions?
+- How to combine your data with other open data to answer these questions?
+- How to get data into the right structure to perform different types of analyses?
 
 ???
 
@@ -210,9 +226,9 @@ class: middle
 # Relevance of the topic
 ***
 - Deriving actions from data plays a key role in every organisation
-- Demand on WASH professionals to analyse data and share knowledge is increasing
-- Little attention given to the resources and competencies needed to satisfy this demand
-- Investing now into becoming a data-driven organisation will pay off in the long run
+- Demand on WASH professionals to analyse data is increasing
+- Little attention given to the competencies needed to satisfy this demand
+- Investing into becoming a data-driven organisation will pay off in the long run
 
 ???
 
@@ -614,14 +630,13 @@ class: inverse, middle
 # Requirements
 ***
 
-1. ~~Registration for Colorado WASH Symposium 2021~~
-2. A free account on RStudio Cloud
+1. A free account on RStudio Cloud
     - https://rstudio.cloud/plans/free
-3. One of Mozilla Firefox, Google Chrome, Microsoft Edge, Safari 
+2. One of Mozilla Firefox, Google Chrome, Microsoft Edge, Safari, Opera
     - just **not** the Internet Explorer
-4. A laptop or desktop computer
+3. A laptop or desktop computer
     - it will be hard to do on a phone or tablet
-5. And if you haven't seen it, please read the [Code of Conduct](https://larnsce.github.io/co-wash-symposium-2021/code_of_conduct.html) after this workshop
+4. And if you haven't seen it, please read the [Code of Conduct](https://larnsce.github.io/co-wash-symposium-2021/code_of_conduct.html) after this workshop
 
 ---
 class: left
@@ -697,13 +712,13 @@ I would be more than happy to go through it with you another time where I can he
 class: middle
 
 ## If you are interested in a course on Data Science for WASH
-
-.big[Fill out this form:  
+***
+.large[Fill out this form:  
 [forms.gle/XaDNE3Z6SJrxo2BM8](https://forms.gle/XaDNE3Z6SJrxo2BM8)]
-
+.large120[
 - 10 questions
 - done in 5 minutes
-
+]
 ???
 
 1. This course doesn't exist
@@ -747,6 +762,11 @@ For joining!
 
 For R packages [{xaringan}](https://github.com/yihui/xaringan) and [{xaringanthemer}](https://github.com/gadenbuie/xaringanthemer), which where used to create these slides.
 
-All material is licensed under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/). To download a PDF version of these slides [click here](https://github.com/larnsce/co-wash-symposium-2021/raw/main/docs/slides/co-wash-symposium-data-science-for-wash-slides.pdf).
+All material is licensed under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/). 
 
-.big[Slides here: [https://larnsce.github.io/co-wash-symposium-2021/](https://larnsce.github.io/co-wash-symposium-2021/)]
+***
+## **Slides**
+
+.large120[PDF version: [Download here](https://github.com/larnsce/co-wash-symposium-2021/raw/main/docs/slides/co-wash-symposium-data-science-for-wash-slides.pdf)]
+
+.large120[Web version: [https://larnsce.github.io/co-wash-symposium-2021/](https://larnsce.github.io/co-wash-symposium-2021/)]
