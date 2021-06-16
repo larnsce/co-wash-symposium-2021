@@ -38,6 +38,16 @@ xaringanExtra::use_share_again()
 xaringanExtra::embed_xaringan(url = "slides/index.html", ratio = "16:9")
 ```
 
+# 🎥 Recording
+
+This video is a recording of the workshop hosted on 28th April 2021. You can use it to:
+
+1. learn about the motivation for this initiative, 
+2. follow the instructions and complete the exercises, 
+3. get inspired and [Click here](https://us02web.zoom.us/meeting/register/tZcucO-qpjItGdRYUuhfU120KpUCnnTejkqm) to sign up for another round on 29th July 2021 to ask some questions
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DuNQakdz2Wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 # 📆 Details
 
 Have you missed it? [Click here](https://us02web.zoom.us/meeting/register/tZcucO-qpjItGdRYUuhfU120KpUCnnTejkqm) to sign up for another round on 29th July 2021.
