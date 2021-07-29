@@ -44,15 +44,15 @@ This video is a recording of the workshop hosted on 28th April 2021. You can use
 
 1. learn about the motivation for this initiative, 
 2. follow the instructions and complete the exercises, 
-3. get inspired and [Click here](https://us02web.zoom.us/meeting/register/tZcucO-qpjItGdRYUuhfU120KpUCnnTejkqm) to sign up for another round on 29th July 2021 to ask some questions
+3. get inspired and [click here](https://us02web.zoom.us/meeting/register/tZwucOmsqjorGdQe3lykOPl24hdFpwc4BYxI) to sign up for another round on 4th November 2021 to ask some questions
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DuNQakdz2Wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # 📆 Details
 
-Have you missed it? [Click here](https://us02web.zoom.us/meeting/register/tZcucO-qpjItGdRYUuhfU120KpUCnnTejkqm) to sign up for another round on 29th July 2021.
+Have you missed it? [Zoom Meeting Link](https://us02web.zoom.us/meeting/register/tZwucOmsqjorGdQe3lykOPl24hdFpwc4BYxI) to sign up for another round on 4th November 2021.
 
-- **Date:** Wednesday, 29th July 2021
+- **Date:** Thursday, 4th November 2021
 - **Time:**
     - 7 AM (MST - Boulder, USA) `r emo::ji("us")`
     - 3 PM (CET - Zurich, Switzerland)  `r emo::ji("switzerland")`

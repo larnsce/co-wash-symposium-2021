@@ -2,7 +2,7 @@
 title: "Data Science for WASH"
 subtitle: "An opportunity for the sector"
 author: "Lars Schöbitz"
-date: "2021-04-28"
+date: "2021-07-29"
 output:
   xaringan::moon_reader:
     css: ["default", "assets/css/my-css-style.css", "assets/css/xaringan-themer.css"]
@@ -120,7 +120,7 @@ class: center
 .large[**Lars Schöbitz**]
 
 Environmental Engineer  
-WASH Consultant  
+Open Science Specialist @ ETH Zurich
 Instructor for Data Science with R
 
 ```{r, echo = FALSE, out.width="70%"}
@@ -134,8 +134,7 @@ knitr::include_graphics("img/profile_picture_lars_schoebitz_round.png")
 .pull-right[
 .large[**Georges Mikhael**]
 
-Senior Urban Sanitation Specialist  
-Consultant at Aguaconsult, UK  
+Independent Sanitation Consultant
 Novice R user  
 
 ```{r, echo = FALSE, out.width="70%"}
@@ -148,14 +147,16 @@ knitr::include_graphics("img/georges_mikhael_profile_picture.jpg")
 
 ???
 
-- My name is Lars, I am an environmental engineer and WASH Consultant
-- More recently, I have certified as an RStudio Instructor for teaching Data Science with R
+**Lars**
+
+- My name is Lars, I am an environmental engineer, a consultant and more recently joined ETH Zurich as an Open Science Specialist
+- I am a certified RStudio Instructor for teaching Data Science with R
 - I am leading this workshop and the initative behind it
 
-- Georges is supporting me in this presentation
-- He is a Senior Urban Sanitation Specialist at Aguaconsult, UK
-- He is a novice R user 
-- Today, he will monitor the chat and curate questions for a short discussion at the end
+**Georges**
+
+- Georges is supporting me with this initiative
+- He is an Independent Sanition Consultant and a novice R user 
 
 ---
 background-image: url(img/housekeeping.jpg)
@@ -167,12 +168,14 @@ background-position: right
 ## Housekeeping 
 
 .pull-left-wide[
+
 - Keep your microphone muted
-- Post question to the Zoom Chat
+- Post questions to the Zoom Chat
 - Questions will be addressed at the end 
 - Technical difficulties cannot be addressed
 
 **Note:** This Zoom Meeting will be recorded
+
 ]
 
 ---
@@ -299,6 +302,7 @@ background-size: contain
 
 
 ???
+
 1. First you must import your data into R. This typically means that you take data stored:
 
 - in a file
@@ -751,8 +755,8 @@ class: middle
 
 ## If you are interested in following along the development of Data Science for WASH
 ***
-- Join Slack Workspace: **[Click here](https://join.slack.com/t/datascienceforwash/shared_invite/zt-nh47xhqt-WYV64_iqTBMxBB4CMWm33Q)**
-- Follo along on Twitter: **[@washdata](https://twitter.com/washdata)**
+- Join Slack Workspace: **[Link to Workspace](https://join.slack.com/t/datascienceforwash/shared_invite/zt-nh47xhqt-WYV64_iqTBMxBB4CMWm33Q)**
+- Follow along on Twitter: **[@washdata](https://twitter.com/washdata)**
 - Get in touch via E-Mail: **[Lars@Lse.de](mailto:lars@lse.de)**
 
 ---
@@ -760,11 +764,10 @@ class: middle
 
 ## If you know of someone that could be interested
 ***
-Share info about next round of this workshop
 
-- **Date:** 29th July 2021
+- **Date:** 4th November 2021
 - **Time:** 3 PM (CET)
-- **Sign-up Link:** https://us02web.zoom.us/meeting/register/tZcucO-qpjItGdRYUuhfU120KpUCnnTejkqm 
+- **Sign-up Link:** https://us02web.zoom.us/meeting/register/tZwucOmsqjorGdQe3lykOPl24hdFpwc4BYxI 
 
 ---
 # `r emo::ji("sunflower")` Thank you!
