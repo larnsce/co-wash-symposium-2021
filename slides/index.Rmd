@@ -655,7 +655,7 @@ background-size: contain
 
 .large[Step 1: Open this link in your browser]
 
-.big[rstudio.cloud/project/2737219](https://rstudio.cloud/project/2737219)]
+.big[[rstudio.cloud/project/2737219](https://rstudio.cloud/project/2737219)]
 
 --
 
