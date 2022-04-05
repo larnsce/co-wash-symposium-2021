@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use material from this workshop, please cite as below."
+authors:
+  - family-names: Schöbitz
+    given-names: Lars
+    orcid: https://orcid.org/0000-0003-2196-5015
+title: "Data Science for WASH workshop hosted at the Colorado WASH Symposium 2021"
+version: 0.0.1
+doi: 
+date-released: 2021-02-24
